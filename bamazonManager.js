@@ -105,7 +105,6 @@ function displayLowInventory() {
 	connection.query(queryStr, function(err, data) {
 		if (err) throw err;
 
-		console.log('Low Inventory Items (below 100): ');
 		console.log('................................\n');
 
 		var strOut = '';
